@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC6012AC1B7CBC0800F04FBD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6012AB1B7CBC0800F04FBD /* main.m */; };
+		EC6012AF1B7CBC0800F04FBD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6012AE1B7CBC0800F04FBD /* AppDelegate.m */; };
+		EC6012B71B7CBC0800F04FBD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC6012B61B7CBC0800F04FBD /* Images.xcassets */; };
+		EC6012BA1B7CBC0800F04FBD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC6012B81B7CBC0800F04FBD /* LaunchScreen.xib */; };
+		EC6012C61B7CBC0800F04FBD /* _______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6012C51B7CBC0800F04FBD /* _______Tests.m */; };
+		EC6012E31B7CC85B00F04FBD /* YZPersonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6012DE1B7CC85B00F04FBD /* YZPersonTableViewController.m */; };
+		EC6012E41B7CC85B00F04FBD /* YZPersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6012E01B7CC85B00F04FBD /* YZPersonViewController.m */; };
+		EC6012E51B7CC85B00F04FBD /* YZPersonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC6012E11B7CC85B00F04FBD /* YZPersonViewController.xib */; };
+		EC6012F11B7CD1ED00F04FBD /* YZTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6012F01B7CD1ED00F04FBD /* YZTableView.m */; };
+		EC6013291B7CD96300F04FBD /* XMGPersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6013281B7CD96300F04FBD /* XMGPersonViewController.m */; };
+		EC60132C1B7CD9AE00F04FBD /* XMGPersonTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC60132B1B7CD9AE00F04FBD /* XMGPersonTableViewController.m */; };
+		EC60132F1B7CDAFA00F04FBD /* YZWeiBoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC60132E1B7CDAFA00F04FBD /* YZWeiBoTableViewController.m */; };
+		EC6013331B7CDFC500F04FBD /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6013321B7CDFC500F04FBD /* UIImage+Image.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC6012C01B7CBC0800F04FBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC60129E1B7CBC0800F04FBD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC6012A51B7CBC0800F04FBD;
+			remoteInfo = "个人详情控制器";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC6012A61B7CBC0800F04FBD /* 个人详情控制器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "个人详情控制器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6012AA1B7CBC0800F04FBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC6012AB1B7CBC0800F04FBD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC6012AD1B7CBC0800F04FBD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC6012AE1B7CBC0800F04FBD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC6012B61B7CBC0800F04FBD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EC6012B91B7CBC0800F04FBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EC6012BF1B7CBC0800F04FBD /* 个人详情控制器Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "个人详情控制器Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6012C41B7CBC0800F04FBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC6012C51B7CBC0800F04FBD /* _______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_______Tests.m"; sourceTree = "<group>"; };
+		EC6012DD1B7CC85B00F04FBD /* YZPersonTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZPersonTableViewController.h; sourceTree = "<group>"; };
+		EC6012DE1B7CC85B00F04FBD /* YZPersonTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZPersonTableViewController.m; sourceTree = "<group>"; };
+		EC6012DF1B7CC85B00F04FBD /* YZPersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZPersonViewController.h; sourceTree = "<group>"; };
+		EC6012E01B7CC85B00F04FBD /* YZPersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZPersonViewController.m; sourceTree = "<group>"; };
+		EC6012E11B7CC85B00F04FBD /* YZPersonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YZPersonViewController.xib; sourceTree = "<group>"; };
+		EC6012EF1B7CD1ED00F04FBD /* YZTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZTableView.h; sourceTree = "<group>"; };
+		EC6012F01B7CD1ED00F04FBD /* YZTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZTableView.m; sourceTree = "<group>"; };
+		EC6013271B7CD96300F04FBD /* XMGPersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGPersonViewController.h; sourceTree = "<group>"; };
+		EC6013281B7CD96300F04FBD /* XMGPersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGPersonViewController.m; sourceTree = "<group>"; };
+		EC60132A1B7CD9AE00F04FBD /* XMGPersonTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGPersonTableViewController.h; sourceTree = "<group>"; };
+		EC60132B1B7CD9AE00F04FBD /* XMGPersonTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGPersonTableViewController.m; sourceTree = "<group>"; };
+		EC60132D1B7CDAFA00F04FBD /* YZWeiBoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YZWeiBoTableViewController.h; sourceTree = "<group>"; };
+		EC60132E1B7CDAFA00F04FBD /* YZWeiBoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YZWeiBoTableViewController.m; sourceTree = "<group>"; };
+		EC6013311B7CDFC500F04FBD /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		EC6013321B7CDFC500F04FBD /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC6012A31B7CBC0800F04FBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6012BC1B7CBC0800F04FBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC60129D1B7CBC0800F04FBD = {
+			isa = PBXGroup;
+			children = (
+				EC6012A81B7CBC0800F04FBD /* 个人详情控制器 */,
+				EC6012C21B7CBC0800F04FBD /* 个人详情控制器Tests */,
+				EC6012A71B7CBC0800F04FBD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC6012A71B7CBC0800F04FBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC6012A61B7CBC0800F04FBD /* 个人详情控制器.app */,
+				EC6012BF1B7CBC0800F04FBD /* 个人详情控制器Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC6012A81B7CBC0800F04FBD /* 个人详情控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				EC6012DA1B7CC85B00F04FBD /* YZPerson */,
+				EC6012AD1B7CBC0800F04FBD /* AppDelegate.h */,
+				EC6012AE1B7CBC0800F04FBD /* AppDelegate.m */,
+				EC6012B61B7CBC0800F04FBD /* Images.xcassets */,
+				EC6012B81B7CBC0800F04FBD /* LaunchScreen.xib */,
+				EC6012A91B7CBC0800F04FBD /* Supporting Files */,
+				EC6013271B7CD96300F04FBD /* XMGPersonViewController.h */,
+				EC6013281B7CD96300F04FBD /* XMGPersonViewController.m */,
+				EC60132A1B7CD9AE00F04FBD /* XMGPersonTableViewController.h */,
+				EC60132B1B7CD9AE00F04FBD /* XMGPersonTableViewController.m */,
+				EC60132D1B7CDAFA00F04FBD /* YZWeiBoTableViewController.h */,
+				EC60132E1B7CDAFA00F04FBD /* YZWeiBoTableViewController.m */,
+			);
+			path = "个人详情控制器";
+			sourceTree = "<group>";
+		};
+		EC6012A91B7CBC0800F04FBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC6012AA1B7CBC0800F04FBD /* Info.plist */,
+				EC6012AB1B7CBC0800F04FBD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC6012C21B7CBC0800F04FBD /* 个人详情控制器Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EC6012C51B7CBC0800F04FBD /* _______Tests.m */,
+				EC6012C31B7CBC0800F04FBD /* Supporting Files */,
+			);
+			path = "个人详情控制器Tests";
+			sourceTree = "<group>";
+		};
+		EC6012C31B7CBC0800F04FBD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC6012C41B7CBC0800F04FBD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EC6012DA1B7CC85B00F04FBD /* YZPerson */ = {
+			isa = PBXGroup;
+			children = (
+				EC6013301B7CDFC500F04FBD /* Category */,
+				EC6012DD1B7CC85B00F04FBD /* YZPersonTableViewController.h */,
+				EC6012DE1B7CC85B00F04FBD /* YZPersonTableViewController.m */,
+				EC6012DF1B7CC85B00F04FBD /* YZPersonViewController.h */,
+				EC6012E01B7CC85B00F04FBD /* YZPersonViewController.m */,
+				EC6012E11B7CC85B00F04FBD /* YZPersonViewController.xib */,
+				EC6012EF1B7CD1ED00F04FBD /* YZTableView.h */,
+				EC6012F01B7CD1ED00F04FBD /* YZTableView.m */,
+			);
+			path = YZPerson;
+			sourceTree = "<group>";
+		};
+		EC6013301B7CDFC500F04FBD /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				EC6013311B7CDFC500F04FBD /* UIImage+Image.h */,
+				EC6013321B7CDFC500F04FBD /* UIImage+Image.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC6012A51B7CBC0800F04FBD /* 个人详情控制器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC6012C91B7CBC0800F04FBD /* Build configuration list for PBXNativeTarget "个人详情控制器" */;
+			buildPhases = (
+				EC6012A21B7CBC0800F04FBD /* Sources */,
+				EC6012A31B7CBC0800F04FBD /* Frameworks */,
+				EC6012A41B7CBC0800F04FBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "个人详情控制器";
+			productName = "个人详情控制器";
+			productReference = EC6012A61B7CBC0800F04FBD /* 个人详情控制器.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC6012BE1B7CBC0800F04FBD /* 个人详情控制器Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC6012CC1B7CBC0800F04FBD /* Build configuration list for PBXNativeTarget "个人详情控制器Tests" */;
+			buildPhases = (
+				EC6012BB1B7CBC0800F04FBD /* Sources */,
+				EC6012BC1B7CBC0800F04FBD /* Frameworks */,
+				EC6012BD1B7CBC0800F04FBD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC6012C11B7CBC0800F04FBD /* PBXTargetDependency */,
+			);
+			name = "个人详情控制器Tests";
+			productName = "个人详情控制器Tests";
+			productReference = EC6012BF1B7CBC0800F04FBD /* 个人详情控制器Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC60129E1B7CBC0800F04FBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = YZ;
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = yz;
+				TargetAttributes = {
+					EC6012A51B7CBC0800F04FBD = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					EC6012BE1B7CBC0800F04FBD = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = EC6012A51B7CBC0800F04FBD;
+					};
+				};
+			};
+			buildConfigurationList = EC6012A11B7CBC0800F04FBD /* Build configuration list for PBXProject "个人详情控制器" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC60129D1B7CBC0800F04FBD;
+			productRefGroup = EC6012A71B7CBC0800F04FBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC6012A51B7CBC0800F04FBD /* 个人详情控制器 */,
+				EC6012BE1B7CBC0800F04FBD /* 个人详情控制器Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC6012A41B7CBC0800F04FBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6012E51B7CC85B00F04FBD /* YZPersonViewController.xib in Resources */,
+				EC6012BA1B7CBC0800F04FBD /* LaunchScreen.xib in Resources */,
+				EC6012B71B7CBC0800F04FBD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6012BD1B7CBC0800F04FBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC6012A21B7CBC0800F04FBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6012AF1B7CBC0800F04FBD /* AppDelegate.m in Sources */,
+				EC6012E31B7CC85B00F04FBD /* YZPersonTableViewController.m in Sources */,
+				EC6012AC1B7CBC0800F04FBD /* main.m in Sources */,
+				EC6013331B7CDFC500F04FBD /* UIImage+Image.m in Sources */,
+				EC6012F11B7CD1ED00F04FBD /* YZTableView.m in Sources */,
+				EC6013291B7CD96300F04FBD /* XMGPersonViewController.m in Sources */,
+				EC60132C1B7CD9AE00F04FBD /* XMGPersonTableViewController.m in Sources */,
+				EC6012E41B7CC85B00F04FBD /* YZPersonViewController.m in Sources */,
+				EC60132F1B7CDAFA00F04FBD /* YZWeiBoTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC6012BB1B7CBC0800F04FBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6012C61B7CBC0800F04FBD /* _______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC6012C11B7CBC0800F04FBD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC6012A51B7CBC0800F04FBD /* 个人详情控制器 */;
+			targetProxy = EC6012C01B7CBC0800F04FBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC6012B81B7CBC0800F04FBD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC6012B91B7CBC0800F04FBD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC6012C71B7CBC0800F04FBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC6012C81B7CBC0800F04FBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC6012CA1B7CBC0800F04FBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "个人详情控制器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EC6012CB1B7CBC0800F04FBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "个人详情控制器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EC6012CD1B7CBC0800F04FBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "个人详情控制器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/个人详情控制器.app/个人详情控制器";
+			};
+			name = Debug;
+		};
+		EC6012CE1B7CBC0800F04FBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "个人详情控制器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/个人详情控制器.app/个人详情控制器";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC6012A11B7CBC0800F04FBD /* Build configuration list for PBXProject "个人详情控制器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6012C71B7CBC0800F04FBD /* Debug */,
+				EC6012C81B7CBC0800F04FBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC6012C91B7CBC0800F04FBD /* Build configuration list for PBXNativeTarget "个人详情控制器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6012CA1B7CBC0800F04FBD /* Debug */,
+				EC6012CB1B7CBC0800F04FBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC6012CC1B7CBC0800F04FBD /* Build configuration list for PBXNativeTarget "个人详情控制器Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6012CD1B7CBC0800F04FBD /* Debug */,
+				EC6012CE1B7CBC0800F04FBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC60129E1B7CBC0800F04FBD /* Project object */;
+}
