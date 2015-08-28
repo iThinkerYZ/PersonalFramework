@@ -88,6 +88,12 @@
 - (void)setUpChildControlller
 {
     for (YZPersonTableViewController *personChildVc in self.childViewControllers) {
+    
+        // 防止其他自控制器加载到tabbar上
+        if (![personChildVc isKindOfClass:[YZPersonListViewController class]]) {
+                
+                continue;
+        }
         
         self.personIconView.image = self.personIconImage;
         
@@ -129,8 +135,14 @@
 - (void)setUpTabBar
 {
     // 遍历子控制器
-
+    
+    // 防止其他自控制器加载到tabbar上
     for (UIViewController *childVc in self.childViewControllers) {
+    
+        if (![childVc isKindOfClass:[YZPersonListViewController class]]) {
+            
+            return;
+        }
         
         UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
         
